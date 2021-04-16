@@ -108,9 +108,3 @@ class BookInStock
     return "$#{sprintf("%0.02f", @price)}"
   end
 end
-
-fiction = BookInStock.new("isbn1", 33.6)
-puts(fiction.isbn)
-puts(fiction.price)
-fiction.price = 83.4
-puts(fiction.price)
